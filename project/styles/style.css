@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    margin-top: 150px;
+    background-color: darkslategrey;
+    font-family: arial, sans-serif;
+}
+
+#newTaskForm {
+    display: inline;
+}
+
+#newTaskForm>input {
+    font-size: 15px;
+}
+
+#radioButtons {
+    margin: 20px;
+    font-size: larger;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  
+  td, th {
+    border: 1px solid darkgray;
+    padding: 8px;
+  }
+
+  tr:nth-child(odd) {
+    background-color: gray;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #removeButton {
+      margin-top: 30px;
+  }

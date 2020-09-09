@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <form action="text" id="newTaskForm">
+            <input type="text" id="task" name="newTask" placeholder="Input task">
+            <div id="radioButtons">
+                <input type="radio" id="yes" name="complete" value="Yes">
+                <label for="yes">Yes</label><br>
+                <input type="radio" id="no" name="complete" value="No" checked>
+                <label for="no">No</label><br>
+            </div>            
+            
+        </form>
+        <input type="submit" id="submitButton" value="Submit"></input>
+        <table id="todoTable">
+            <tr>
+                <th>Task</th>
+                <th>Complete</th>
+                <th>Complete and remove <input type="checkbox" name="Completion" id="completion" hidden></th>
+            </tr>
+        </table>
+        <input type="submit" id="removeButton" value="Remove completed tasks"></input>
+        <script src="scripts/index.js"></script>
+    </body>
+</html>
